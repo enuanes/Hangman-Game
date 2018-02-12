@@ -1,0 +1,64 @@
+body {
+    background-image: url(http://www.reuun.com/data/out/143/403737216-zoo-wallpapers.png);
+    background-size: 100%;
+    position: relative;
+}
+
+.jumbotron {
+    background-color: black;
+    color: antiquewhite;
+    font-family: fantasy;
+    line-height: 40px;
+    width: 60%;
+    margin-top: 20px;
+    height: 180px;
+    padding:20px;
+    text-align: center
+}
+
+.row {
+    background-color: antiquewhite;
+    width: 70%;
+    height: 230px;
+    position: fixed;
+    bottom: 0;
+    left: 15%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-bottom: 60px; 
+}
+
+#panel1,
+#panel2,
+#panel3,
+#panel4,
+#panel5 {
+    text-align: center;
+    position: fixed;
+    width: 200px;
+    left: 42.5%;
+}
+
+#panel1 {
+    margin-top: 20px;
+}
+
+#panel2 {
+    margin-top:100px;
+}
+
+#panel3 {
+    margin-top: 125px;
+}
+
+#panel4 {
+    margin-top: 150px;
+}
+
+#panel5 {
+    margin-top: 175px;
+}
+
+
+ 
