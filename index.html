@@ -7,11 +7,13 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <title>Coding Bootcamp - Hangman</title>
 
   <!-- Bootstrap is used to make game look nicer -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -23,64 +25,64 @@
       <div class="container">
         <h1>Hangman - San Diego Zoo Edition</h1>
         <h2>Guess the name of animals found at the San Diego Zoo!!</h2>
-        <small>Click any letter to begin...</small>
-      </div>
+        <medium>Click any letter to begin...</medium>
     </div>
+  </div>
 
     <!-- Game counters all held here. Panels are being used to hold various sections. -->
-    <div class="row">
-      <div class="col-lg-12">
+    
+  <div class="row">
+    <div class="col-lg-4">
 
-        <!-- First Panel: Holds the Word to Guess (blanks and guessed word) -->
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title"><strong>Word to Guess</strong></h3>
-          </div>
-          <div class="panel-body">
-            <!-- This h3 section called wordblanks is what we'll be replacing with letters as the user guesses.
-						Pay particular attention to the id called ***wordblanks***. We'll be referencing this in the JavaScript. -->
-            <h3 id="word-blanks">_ _ _ _ _ _ _ _ _ </h3>
-          </div>
+      <!-- First Panel: Holds the Word to Guess (blanks and guessed word) -->
+      <div id="panel1" class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><strong>Word to Guess</strong></h3>
         </div>
-
-        <!-- Second Panel: Holds the list of Wrong User Guesses. -->
-        <div class="panel panel-default">
-          <div class="panel-body">
-
-            <!-- This span section called userGuesses is where we will be dumping the wrong guesses.
-						Pay particular attention to the id called ****userGuesses***. We'll be referencing this in the JavaScript. -->
-            <strong>Wrong Guesses: </strong> <span id="wrong-guesses"></span>
-          </div>
+        <div class="panel-body">
+          <!-- This h3 section called wordblanks is what we'll be replacing with letters as the user guesses.
+          Pay particular attention to the id called ***wordblanks***. We'll be referencing this in the JavaScript. -->
+          <h3 id="word-blanks">_ _ _ _ _ _ _ _ _ </h3>
         </div>
+      </div>
 
-        <!-- Third Panel: Holds the Number of Wrong Guesses -->
-        <div class="panel panel-default">
-          <div class="panel-body">
+      <!-- Second Panel: Holds the list of Wrong User Guesses. -->
+      <div id="panel2" class="panel panel-default">
+        <div class="panel-body">
 
-            <!-- This span called guessesLeft is where we will be dumping the number of guesses left.
-						Pay attention to the id called ****guessesLeft****. We'll be referencing this in the JavaScript. -->
-            <strong>Guesses Left: </strong> <span id="guesses-left">9</span>
-          </div>
+          <!-- This span section called userGuesses is where we will be dumping the wrong guesses.
+          Pay particular attention to the id called ****userGuesses***. We'll be referencing this in the JavaScript. -->
+          <strong>Wrong Guesses: </strong> <span id="wrong-guesses"></span>
         </div>
+      </div>
 
-        <!-- Fourth Panel: Holds the number of Wins. -->
-        <div class="panel panel-default">
-          <div class="panel-body">
+      <!-- Third Panel: Holds the Number of Wrong Guesses -->
+      <div id="panel3" class="panel panel-default">
+        <div class="panel-body">
 
-            <!-- This span called winCounter is where we'll be dumping the number of wins.
-						Pay attention to the id called ****winCounter***. We'll be referencing this in the JavaScript. -->
-            <strong>Wins: </strong> <span id="win-counter">0</span>
-          </div>
+          <!-- This span called guessesLeft is where we will be dumping the number of guesses left.
+          Pay attention to the id called ****guessesLeft****. We'll be referencing this in the JavaScript. -->
+          <strong>Guesses Left: </strong> <span id="guesses-left">9</span>
         </div>
+      </div>
 
-        <!-- Fifth Panel: Holds the number of Losses. -->
-        <div class="panel panel-default">
-          <div class="panel-body">
+      <!-- Fourth Panel: Holds the number of Wins. -->
+      <div id="panel4" class="panel panel-default">
+        <div class="panel-body">
 
-            <!-- This span called winCounter is where we'll be dumping the number of wins.
-						Pay attention to the id called ****winCounter***. We'll be referencing this in the JavaScript. -->
-            <strong>Losses: </strong> <span id="loss-counter">0</span>
-          </div>
+          <!-- This span called winCounter is where we'll be dumping the number of wins.
+          Pay attention to the id called ****winCounter***. We'll be referencing this in the JavaScript. -->
+          <strong>Wins: </strong> <span id="win-counter">0</span>
+        </div>
+      </div>
+
+      <!-- Fifth Panel: Holds the number of Losses. -->
+      <div id="panel5" class="panel panel-default">
+        <div class="panel-body">
+
+          <!-- This span called winCounter is where we'll be dumping the number of wins.
+          Pay attention to the id called ****winCounter***. We'll be referencing this in the JavaScript. -->
+          <strong>Losses: </strong> <span id="loss-counter">0</span>
         </div>
       </div>
     </div>
