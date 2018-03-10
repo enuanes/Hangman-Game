@@ -1,64 +1,65 @@
 body {
-    background-image: url(http://www.reuun.com/data/out/143/403737216-zoo-wallpapers.png);
-    background-size: 100%;
-    position: relative;
+    background-image: url(https://i.pinimg.com/originals/dd/64/eb/dd64eb42fac35881ddc4e59e9bb8d1a9.jpg);
+    height: 100%;
 }
 
-.jumbotron {
-    background-color: black;
-    color: antiquewhite;
-    font-family: fantasy;
-    line-height: 40px;
-    width: 60%;
-    margin-top: 20px;
-    height: 180px;
-    padding:20px;
-    text-align: center
+#wrapper {
+    color: white;
+    font-weight: bold;
+    height: 275px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.row {
-    background-color: antiquewhite;
-    width: 70%;
-    height: 230px;
-    position: fixed;
-    bottom: 0;
-    left: 15%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    margin-bottom: 60px; 
+h1 {
+    font-size: 50px;
 }
 
-#panel1,
-#panel2,
-#panel3,
-#panel4,
-#panel5 {
+#container {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+p {
+    font-size: 32;
+}
+
+p,
+alt,
+.sectionTitle {
+    color: #f5f5f5;
+    font-weight: bolder;
+}
+
+#wins,
+#currentWord,
+#guessesRemaining,
+#guessedLetters {
+    color: #f5f5f5;
+}
+
+div {
     text-align: center;
-    position: fixed;
-    width: 200px;
-    left: 42.5%;
 }
 
-#panel1 {
-    margin-top: 20px;
+.animalImage {
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
 }
 
-#panel2 {
-    margin-top:100px;
+#animalDiv {
+    width: 300px;
+    padding: 20px;
+    margin-left: 10px;
 }
 
-#panel3 {
-    margin-top: 125px;
+#gameSection {
+    float: left;
+    width: 300px;
+    height: 580px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: 2px solid #f5f5f5;
 }
-
-#panel4 {
-    margin-top: 150px;
-}
-
-#panel5 {
-    margin-top: 175px;
-}
-
-
- 
