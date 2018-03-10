@@ -13,11 +13,11 @@ var hangmanGame = {
         },
         bat: {
             picture: "bat.jpg",
-            preview: "batSound"
+            preview: "http://bertrik.sikken.nl/bat/wav/bat1.mp3"
         },
         camel: {
             picture: "camel.jpg",
-            preview: ""
+            preview: "images/camelSound.mp3"
         },
         gorilla: {
             picture: "gorilla.jpg",
@@ -25,7 +25,7 @@ var hangmanGame = {
         },
         jaguar: {
             picture: "jaguar.jpg",
-            preview: ""
+            preview: "images/jaguarSound.mp3"
         },
         koala: {
             picture: "koala.jpg",
@@ -53,34 +53,18 @@ var hangmanGame = {
         },
         orangutan: {
             picture: "orangutan.jpg",
-            preview: ""
+            preview: "images/orangutanSound.mp3"
         },
         tiger: {
             picture: "tiger.jpg",
             preview: "http://static1.grsites.com/archive/sounds/animals/animals026.mp3"
         },
-        wombat: {
-            picture: "wombat.jpg",
-            preview: ""
-        },
-        kangaroo: {
-            picture: "kangaroo.jpg",
-            preview: ""
-        },
         owl: {
             picture: "owl.jpg",
             preview: "http://static1.grsites.com/archive/sounds/animals/animals074.mp3"
         },
-        tarantula: {
-            picture: "tarantula.jpg",
-            preview: ""
-        },
         capybara: {
             picture: "capybara.jpg",
-            preview: ""
-        },
-        kinkajou: {
-            picture: "kinkajou.jpg",
             preview: ""
         },
         otter: {
@@ -89,7 +73,7 @@ var hangmanGame = {
         },
         lynx: {
             picture: "lynx.jpg",
-            preview: ""
+            preview: "http://waterandwoods.net/downloads/lynx.mp3"
         },
         oryx: {
             picture: "oryx.jpg",
@@ -113,7 +97,7 @@ var hangmanGame = {
         },
         myna: {
             picture: "myna.jpg",
-            preview: ""
+            preview: "images/mynaSound.mp3"
         },
         guanaco: {
             picture: "guanaco.jpg",
@@ -121,7 +105,7 @@ var hangmanGame = {
         },
         marmoset: {
             picture: "marmoset.jpg",
-            preview: ""
+            preview: "images/marmosetSound.mp3"
         }
     },
 
