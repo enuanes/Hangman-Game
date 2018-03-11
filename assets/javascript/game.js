@@ -17,7 +17,7 @@ var hangmanGame = {
         },
         camel: {
             picture: "camel.jpg",
-            preview: "images/camelSound.mp3"
+            preview: "../../images/camelSound.mp3"
         },
         gorilla: {
             picture: "gorilla.jpg",
@@ -25,19 +25,11 @@ var hangmanGame = {
         },
         jaguar: {
             picture: "jaguar.jpg",
-            preview: "images/jaguarSound.mp3"
+            preview: "../../images/jaguarSound.mp3"
         },
         koala: {
             picture: "koala.jpg",
-            preview: ""
-        },
-        reindeer: {
-            picture: "reindeer.jpg",
-            preview: ""
-        },
-        sloth: {
-            picture: "sloth.jpg",
-            preview: ""
+            preview: "../../koalaSound.mp3"
         },
         wolf: {
             picture: "wolf.jpg",
@@ -53,7 +45,7 @@ var hangmanGame = {
         },
         orangutan: {
             picture: "orangutan.jpg",
-            preview: "images/orangutanSound.mp3"
+            preview: "../../images/orangutanSound.mp3"
         },
         tiger: {
             picture: "tiger.jpg",
@@ -63,49 +55,45 @@ var hangmanGame = {
             picture: "owl.jpg",
             preview: "http://static1.grsites.com/archive/sounds/animals/animals074.mp3"
         },
-        capybara: {
-            picture: "capybara.jpg",
-            preview: ""
-        },
-        otter: {
-            picture: "otter.jpg",
-            preview: ""
-        },
         lynx: {
             picture: "lynx.jpg",
             preview: "http://waterandwoods.net/downloads/lynx.mp3"
         },
-        oryx: {
-            picture: "oryx.jpg",
-            preview: ""
-        },
-        ibex: {
-            picture: "ibex.jpg",
-            preview: ""
+        cheetah: {
+            picture: "cheetah.jpg",
+            preview: "../../images/cheetahSound.mp3"
         },
         cougar: {
             picture: "cougar.jpg",
             preview: "http://static1.grsites.com/archive/sounds/animals/animals042.mp3",
         },
-        porcupine: {
-            picture: "porcupine.jpg",
-            preview: ""
-        },
         emu: {
             picture: "emu.jpg",
-            preview: ""
+            preview: "../../images.emuSound.mp3"
         },
         myna: {
             picture: "myna.jpg",
-            preview: "images/mynaSound.mp3"
-        },
-        guanaco: {
-            picture: "guanaco.jpg",
-            preview: ""
+            preview: "../../images/mynaSound.mp3"
         },
         marmoset: {
             picture: "marmoset.jpg",
-            preview: "images/marmosetSound.mp3"
+            preview: "../../images/marmosetSound.mp3"
+        },
+        baboon: {
+            picture: "baboon.jpg",
+            preview: "../../images/baboonSound.mp3"
+        },
+        hippo: {
+            picture: "hippo.jpg",
+            preview: "../../images/hippoSound.mp3"
+        },
+        lemur: {
+            picture: "lemur.jpg",
+            preview: "../../images/lemurSound.mp3"
+        },
+        rhinoceros: {
+            picture: "rhinoceros.jpg",
+            preview: "../../images/rhinocerosSound.mp3"
         }
     },
 
